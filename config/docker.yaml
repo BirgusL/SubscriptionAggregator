@@ -1,0 +1,14 @@
+env: "docker"
+
+db:
+  host: "db"
+  port: "5432"
+  user: "postgres"
+  password: "123456"
+  name: "subscriptions"
+  sslmode: "disable"
+
+http_server:
+  adress: ":8080"
+  timeout: 4s
+  iddle_timeout: 60s
